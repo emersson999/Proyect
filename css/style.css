@@ -407,7 +407,7 @@ footer.bottom .links{
     }
 }
 
-@media (min-width: 1920px){
+/* @media (min-width: 1920px){
 
     #main_product{
         margin-top: 920px;
@@ -419,7 +419,7 @@ footer.bottom .links{
     #main_contact{
         margin-left: 556px;
     }
-}
+} */
 
 
 @media (width >= 676px) {
