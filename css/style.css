@@ -3,6 +3,8 @@ body{
     margin: 0;
 }
 
+html{scroll-behavior: smooth;}
+
 a {
     text-decoration: none;
     color: white;
@@ -27,6 +29,9 @@ header{
 .logo img{  
     height: 60px;
     margin-right: 60px;
+}
+.logo h2{
+    color: white;
 }
 
 nav a{
@@ -780,6 +785,12 @@ margin-top: 72px;
     }
     .product h1{
         margin: 100px 19px 0px 640px
+    }
+}
+
+@media (width <= 371px){
+    .main_frame .slider{
+        width: 400%;
     }
 }
 
